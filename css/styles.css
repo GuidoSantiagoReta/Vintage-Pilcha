@@ -10,6 +10,7 @@
 
 /*NAV*/
 
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -106,7 +107,7 @@ nav{
    }
    .burger{
        display:block;
-       
+       margin-left: 200px;
    }
 }
 
