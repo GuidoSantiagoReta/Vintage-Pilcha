@@ -34,13 +34,13 @@ nav{
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 20px;
- 
+    font-family: 'Roboto', sans-serif;
 }
 
 .burger{
     display: none;
     cursor:pointer;
-   margin-bottom: 10px;
+   margin-bottom: 18px;
 }
 .burger div{
     width: 20px;
@@ -99,7 +99,7 @@ nav{
         align-items: center;
         width: 50%;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+       
     }
    .nav-links  li{
        opacity:0;
@@ -141,6 +141,26 @@ nav{
 }
 
 
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+
+}
 
 
 /*footer*/
