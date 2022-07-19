@@ -7,8 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="/images/icons8-suéter-40.png" type="image/x-icon">
    <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+    <title>V Pilcha</title>
 </head>
 
 
@@ -16,13 +21,16 @@
 <header>
     <nav>
      <div class="logo">
-
+        <img src="/images/icons8-suéter-40.png" id="sweater" alt="" srcset="">
+     </div>
+     <div class="logo-title">
+     <h1><span>V</span>intage Pilch<span>a</span>.</h1>
      </div>
      <div class="nav-links">
-     <li><a href="#">Home</a></li>
-     <li><a href="#">Products</a></li>
-     <li><a href="#profile">About</a></li>
-     <li><a href="#contact">Contact</a></li>
+     <li><a href="index.html">Inicio</a></li>
+     <li><a href="#">Categorias</a></li>
+     <li><a href="#">Marcas</a></li>
+     <li><a href="#"><span id="ini">Ingresar</span> </a></li>
      </div>
 <!--burger menu-->
      <div class="burger">                                        
@@ -35,56 +43,87 @@
 
     <section>
         <div class="image-top">
-            <img src="/images/imagetop.jpg" alt="">
+            <img src="/images/rem.jpg" alt="">
+            <div class="center">TIENDA VINTAGE<p class="center2">Date un gusto, elegí lo que quieras.</p> <button onclick="changeColor('black')" class="btn" type="button">Productos</button></div>
+            
         </div>
 
     </section>
 
-    <section class="informative-banner">
-       
-      
-      
+    <section class="categorias">
+       <div class="cat-title">Categorias</div>
+
+        
+        <div class="cards">
+            <div class="card">
+
+                <img src="images/paul-gaudriault-a-QH9MAAVNI-unsplash.jpg" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Zapatillas</h4>
+                   
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="images/keagan-henman-xPJYL0l5Ii8-unsplash.jpg" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Remeras</h4>
+                   
+                </div>
+            </div>
+        
+            <div class="card">
+                <img src="images/malik-skydsgaard-3we24FcjVAk-unsplash.jpg" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Pantalones</h4>
+              
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/markus-winkler-PQmXUxmfR44-unsplash.jpg" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Sweaters</h4>
+                    
+                </div>
+            </div>
+
+        </div>
+   
     </section>
     
-    <section class="nosotros">
-
-    </section>
-
-  
-    <div class="card">
-    <img src="images/avatar2.png" alt="Avatar" >
-    <div class="container">
-      <h4><b>Jane Doe</b></h4> 
-      <p>Interior Designer</p> 
-    </div>
-</div> 
-    <div class="card">
-        <img src="images/avatar2.png" alt="Avatar" >
-        <div class="container">
-          <h4><b>Jane Doe</b></h4> 
-          <p>Interior Designer</p> 
-        </div>
-    </div>
-        <div class="card">
-            <img src="images/avatar2.png" alt="Avatar" >
-            <div class="container">
-              <h4><b>Jane Doe</b></h4> 
-              <p>Interior Designer</p> 
+    <section class="marcas">
+        
+        <div class="cat-title2">Marcas
+            <div id="container-col">
+                
+                <div class="col2"><img src="/images/vans2.png" alt=""></div>
+                <div class="col2"><img src="/images/quicksilver2.png" alt=""></div>
+                <div class="col2"><img src="/images/ripcurl2.png" alt=""></div>
+                <div class="col2"><img src="/images/nike2.png" alt=""></div>
+                <div class="col2"><img src="/images/Billabong_logo.png" alt=""></div>
+                <div class="col2"><img src="/images/volcom-logo-DF61482144-seeklogo.com.png" alt=""></div>
             </div>
         </div>
-  
 
-
-
-
+        
+    </section>
 
 
 
     <div class="footer">
-        <p>(C) Todos los derechos reservados</p>
-   </div>
- 
+        <h3>Seguinos en Nuestras redes</h3>
+        <div class="redes">
+        <a class="img-redes" href=""><img src="/images/icons8-facebook-nuevo-48.png" alt=""></a>
+        <a class="img-redes" href=""><img src="/images/icons8-instagram-48.png" alt=""></a>
+        <a class="img-redes" href=""><img src="/images/twitter48.png" alt=""></a>
+        </div>
+        <p>Swaregrap (C) 2022.</p>
 
+        
+   </div>
+  
+   
     <script src="navSlide.js"></script>
+    <script src="https://kit.fontawesome.com/42370127be.js" crossorigin="anonymous"></script>
 </body>
 </html>

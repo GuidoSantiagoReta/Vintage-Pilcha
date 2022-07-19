@@ -1,3 +1,4 @@
+
 const  navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
@@ -12,12 +13,22 @@ const  navSlide = () => {
           if(link.style.animation){
             link.style.animation = '';
           } else{
-            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0}s`;
+            link.style.animation = `navLinkFade 0.2s ease forwards ${index / 7 + 0}s`;
         }
       });
-      //Buerger Animation
+      //Burger Animation
       burger.classList.toggle('toggle');
     });
    
  }
  navSlide();
+
+ /*BUTTON*/
+
+ const btn = document.querySelector(".btn");
+
+ function changeColor (color){
+  btn.style.color = color;
+ }
+
+ 
