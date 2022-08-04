@@ -986,7 +986,7 @@ nav{
 /*categoria cards*/
 
 .cards {
-  padding-top: 5vh;
+  padding-top: 10vh;
   display: flex;
   
 
@@ -1246,9 +1246,11 @@ nav{
 .cards {
   padding-top: 10vh;
   display: flex;
-  margin-left: 5vw;
+ 
 }
-
+.cards .card{
+  margin-top: -3vh;
+}
 
 
 .cards .card img {
