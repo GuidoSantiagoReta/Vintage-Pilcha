@@ -1143,6 +1143,7 @@ nav{
          
       }
      .nav-links  li{
+         margin-top: -5vh;
          opacity:0;
          margin-right: 10vw;
          font-size: 8px;
