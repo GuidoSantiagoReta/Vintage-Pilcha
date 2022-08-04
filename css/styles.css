@@ -926,7 +926,7 @@ nav{
 /*texto en imagen*/
 .center{
  position: absolute;
- top: 25%;
+ top: 15%;
  left: 50%;
  transform: translate(-50%, -50%);
  font-size: 45px;
@@ -1184,7 +1184,7 @@ nav{
 /*texto en imagen*/
 .center{
  position: absolute;
- top: 20%;
+ top: 15%;
  left: 50%;
  transform: translate(-50%, -50%);
  font-size: 25px;
