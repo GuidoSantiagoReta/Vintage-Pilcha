@@ -1,9 +1,8 @@
 # Vintage-Pilcha
 
-* Mockup.
+* Mockup:
 * Web development.
 * Responsive Design.
 
  :computer: Website: https://vintage-pilcha.netlify.app/
 
- * sideNav: -boxicons.
