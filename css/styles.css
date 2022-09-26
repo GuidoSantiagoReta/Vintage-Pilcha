@@ -5,6 +5,7 @@
     -webkit-box-sizing: border-box;        /*propiedades para navegadores */
     -moz-box-sizing: border-box;
     box-sizing: border-box;     /*para que el padding no aumente su tamaño */
+   
 }
 
 
@@ -22,6 +23,9 @@ nav{
     width: 100%;
     z-index: 10;
 
+}
+.logo-title {
+  margin-right: 3vw;
 }
 .logo-title  h1 span{
     color: #FF4E02;
@@ -73,14 +77,13 @@ nav{
  #sweater{
     display: flex;
     margin-left: 20px; 
-    width: 80%;
+    max-width: 60%;
 
  }
 
 /*end nav*/
 
-
-/*section image top*/
+/*SECTION IMAGE MODIFICADA
 
  .image-top img{
      display: block;
@@ -88,17 +91,18 @@ nav{
      width: 100%;
     
      
- }
+ }*/
  /*texto en imagen*/
  .center{
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 65px;
-       color: #fff;
+       color: rgb(249, 249, 249);
        font-family: 'Pontano Sans', sans-serif;
        text-shadow: 3px 5px 19px black;
+    
 }
 .center2{
     width: 100%;
@@ -112,6 +116,7 @@ nav{
     color: #fff;
     font-family: 'Pontano Sans', sans-serif;
     text-shadow: 3px 5px 19px black;
+   
     
 }
 .btn{
@@ -120,7 +125,7 @@ nav{
     top: 250%;
     transform: translate(-50%, -50%);
     font-size: 16px;
-    background: #FF4E02;
+    background: #ff4e02bb;
     height: 40px;
     width: 100px;
     border: none;
@@ -145,12 +150,103 @@ nav{
 }
 
 
+
+
+  /*SLIDER*/
+  .carousel-section{
+    overflow-x: hidden;
+  }
+
+  .carousel {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .carousel > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+  }
+  
+  .slide > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow-x: hidden;
+/*image filter*/ 
+    -webkit-filter: blur(3px);
+   -moz-filter: blur(3px);
+   -o-filter: blur(3px);
+   -ms-filter: blur(3px);
+   filter: blur(3px);
+  }
+  
+  .slide[data-active] {
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+    background-color: rgba(199, 199, 199, 0.1); 
+  }
+
+  
+  
+  .carousel-button:hover,
+  .carousel-button:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, .2);
+  margin-bottom: 15vh;
+  }
+  
+  .carousel-button:focus {
+   margin-bottom: 20vh;
+  }
+  
+  .carousel-button.prev {
+    left: 4rem;
+  }
+  
+  .carousel-button.next {
+    right: 4rem;
+  }
+ 
+
+
+  /* FIN SLIDER*/
+
+
  /*categorias*/
  .categorias{
     padding: 0;
     margin: auto;
      height: 539px;
      background-color: #D8D6D6;
+     
 
  }
  .cat-title{
@@ -158,9 +254,10 @@ nav{
     text-align: center;
     padding-top: 1vw;
     font-size: 36px;
-    font-family: 'Pontano Sans';
+    font-family: 'Pontano Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
+   
  }
 /*categoria cards*/
 
@@ -304,7 +401,7 @@ nav{
       display: flex;
       justify-content: space-around;
       width: 30%;
-     
+     margin-right: 3vw;
   }
   
   .nav-links li{
@@ -315,7 +412,7 @@ nav{
       text-decoration: none;
       letter-spacing: 3px;
       font-weight: bolder;
-      font-size: 17px;
+      font-size: 15px;
       font-family: 'Pontano Sans', sans-serif;
       padding: 5px ;
   }
@@ -328,10 +425,10 @@ nav{
     .logo-title h1 {
         color:#fff;
         font-family: 'Pontano Sans', sans-serif;
-        font-size: 25px;
+        font-size: 17px;
         margin-right: 51vw;
         font-weight: lighter;
-        
+         word-wrap:none;
     }
      #sweater{
         display: flex;
@@ -391,7 +488,10 @@ nav{
 }
 /*categorias*/
 
-
+.cat-title{
+ 
+  font-family: 'Pontano Sans', sans-serif;
+}
 
 #container-col{
     color: #D8D6D6;
@@ -441,15 +541,8 @@ nav{
 
 
 
-
-
-
-
 /* Tablets en horizonal y escritorios normales
    ------------------------------------------------------------------------- */
-
-
-
 
 @media screen and (max-width:1199px){
     body{
@@ -521,6 +614,7 @@ nav{
 }
 .cat-title{
   font-size: 30px;
+  font-family: 'Pontano Sans', sans-serif;
 }
 .cards .card img {
   width: 140px;
@@ -714,6 +808,7 @@ nav{
 .cat-title{
     font-size: 30px;
     padding-top:5vh ;
+    font-family: 'Pontano Sans', sans-serif;
 }
 /*categoria cards*/
 
@@ -846,18 +941,8 @@ nav{
 }
 
 
-
-
-
-
-
 }
 /*fin  max-width 768px*/
-
-
-
-
-
 
 
 
@@ -978,10 +1063,12 @@ nav{
    height: 400px;
    background-color: #D8D6D6;
    
+   
 }
 .cat-title{
   font-size: 30px;
   padding-top:5vh ;
+  font-family: 'Pontano Sans', sans-serif;
 }
 /*categoria cards*/
 
@@ -1377,8 +1464,6 @@ nav{
 }
 
     
-
-
 
 
 

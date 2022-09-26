@@ -4,11 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="/images/icons8-suéter-40.png" type="image/x-icon">
    <link rel="stylesheet" href="css/styles.css">
@@ -17,10 +12,11 @@
 
 
 <body>
+
 <header>
     <nav>
      <div class="logo">
-        
+        <img id="sweater" src="images/icons8-suéter-40.png" alt="">
      </div>
      <div class="logo-title">
      <h1><span>V</span>intage Pilch<span>a</span>.</h1>
@@ -29,6 +25,7 @@
      <li><a href="index.html">Inicio</a></li>
      <li><a href="#">Categorias</a></li>
      <li><a href="#">Marcas</a></li>
+     <li><a href="#">Contacto</a></li>
      <li><a href="#"><span id="ini">Ingresar</span> </a></li>
      </div>
 <!--burger menu-->
@@ -40,6 +37,11 @@
     </nav>
 </header>
 
+
+
+
+<!-- SECTION IMAGE TOP 
+  
     <section>
         <div class="image-top">
             <img src="images/rem.jpg" alt="">
@@ -48,6 +50,40 @@
         </div>
 
     </section>
+-->
+
+<section class="carousel-section" aria-label="Newest Photos">
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev"><img src="https://img.icons8.com/sf-black-filled/64/000000/circled-chevron-left.png"/></button>
+      <button class="carousel-button next" data-carousel-button="next"><img src="https://img.icons8.com/sf-black-filled/64/000000/circled-chevron-right.png"/></button>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="images/store2.jpg" alt="store Image #1">
+          <div class="center">TIENDA VINTAGE<p class="center2">Date un gusto, elegí lo que quieras.</p> <button onclick="changeColor('black')" class="btn" type="button">Productos</button></div>
+        </li>
+        <li class="slide">
+          <img src="images/store1.jpg" alt= "store Image #2">
+          <div class="center">TIENDA VINTAGE<p class="center2">Date un gusto, elegí lo que quieras.</p> <button onclick="changeColor('black')" class="btn" type="button">Productos</button></div>
+        </li>
+        <li class="slide">
+          <img src="images/store4.jpg" alt="store Image #3">
+          <div class="center">TIENDA VINTAGE<p class="center2">Date un gusto, elegí lo que quieras.</p> <button onclick="changeColor('black')" class="btn" type="button">Productos</button></div>
+        </li>
+        <li class="slide">
+            <img src="images/store5.jpg" alt="store Image #4">
+            <div class="center">TIENDA VINTAGE<p class="center2">Date un gusto, elegí lo que quieras.</p> <button onclick="changeColor('black')" class="btn" type="button">Productos</button></div>
+          </li>
+          <li class="slide">
+            <img src="images/store6.jpg" alt="store Image #5">
+            <div class="center">TIENDA VINTAGE<p class="center2">Date un gusto, elegí lo que quieras.</p> <button onclick="changeColor('black')" class="btn" type="button">Productos</button></div>
+          </li>
+      </ul>
+    </div>
+  </section>
+
+
+
+  <!--SECTION CATEGORIAS-->
 
     <section class="categorias">
        <div class="cat-title">Categorias</div>
@@ -89,7 +125,9 @@
         </div>
    
     </section>
-    
+
+    <!--SECTION MARCAS-->
+
     <section class="marcas">
         
         <div class="cat-title2">Marcas
@@ -107,7 +145,7 @@
         
     </section>
 
-
+   <!--FOOTER-->
 
     <div class="footer">
         <h3>Seguinos en Nuestras redes</h3>
