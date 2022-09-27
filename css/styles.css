@@ -1273,7 +1273,7 @@ nav{
 /*texto en imagen*/
 .center{
  position: absolute;
- top: 15%;
+ top: 20%;
  left: 50%;
  transform: translate(-50%, -50%);
  font-size: 25px;
