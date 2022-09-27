@@ -155,6 +155,7 @@ nav{
   /*SLIDER*/
   .carousel-section{
     overflow-x: hidden;
+    padding-top: 5vh;
   }
 
   .carousel {
