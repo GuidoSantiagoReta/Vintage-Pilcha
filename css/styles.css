@@ -1281,38 +1281,7 @@ nav{
     font-family: 'Pontano Sans', sans-serif;
     text-shadow: 3px 5px 19px black;
 }
-.center2{
- width: 100%;
- position: absolute;
- display: flex;
- top: 160%;
- transform: translate(-50%, -50%);
- font-size: 13px;
- margin-left: 80px;
- color: #fff;
- font-family: 'Pontano Sans', sans-serif;
- text-shadow: 3px 5px 19px rgb(255, 255, 255);
- 
-}
-.btn{
- display: flex;
- position: fixed;
- top: 290%;
- transform: translate(-50%, -50%);
- font-size: 16px;
- background: #FF4E02;
- height: 40px;
- width: 100px;
- border: none;
- border-radius: 5px ;
- color: #fff;
- font-weight: bold;
- align-items: center;
- margin-left: 22vw;
- padding-left: 10px;
- box-shadow: 0px 0px 5px 2px rgb(255, 253, 253);
- 
-}
+
 
 
 /* fin section image top*/
