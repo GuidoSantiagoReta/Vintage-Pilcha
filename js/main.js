@@ -31,7 +31,8 @@ function changeColor (color){
 btn.style.color = color;
 }
 
- 
+
+
 //Carrousel
 const buttons = document.querySelectorAll("[data-carousel-button]")
 
@@ -51,3 +52,4 @@ buttons.forEach(button => {
     delete activeSlide.dataset.active
   })
 })
+

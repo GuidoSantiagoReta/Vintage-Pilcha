@@ -136,7 +136,7 @@ nav{
     margin-left: 12.5vw;
     padding-left: 10px;
     box-shadow: 0px 0px 5px 2px rgb(255, 253, 253);
-   
+    cursor: pointer;
     
 }
 .btn:hover{
@@ -205,7 +205,7 @@ nav{
     z-index: 2;
     background: none;
     border: none;
-    font-size: 2rem;
+    font-size: 0.5rem;
     top: 50%;
     transform: translateY(-50%);
     color: rgba(255, 255, 255, .5);
