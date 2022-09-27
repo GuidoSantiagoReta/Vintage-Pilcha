@@ -1248,15 +1248,15 @@ nav{
      .logo-title>h1 {
       color:#fff;
       font-family: 'Pontano Sans', sans-serif;
-      font-size: 16px;
-     
+      font-size: 7px;
       font-weight: lighter;
+     
       
   }
    #sweater{
       display: flex;
       margin-left: 8px; 
-      max-width: 10vw;
+      max-width: 6vw;
    }
      /*fin logo*/
 
