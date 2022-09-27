@@ -348,7 +348,7 @@ nav{
 }
 .footer {
    
-    padding: 30px;
+    padding: 40px;
     text-align: center;
     background-color:  rgb(8, 8, 8);
     height: 30vh;
@@ -356,7 +356,7 @@ nav{
    
   }
   .footer-redes-contenedor {
-    margin: 2rem 0;
+    margin: 3.5rem 0;
     display: flex;
     margin-left: 43vw;
 }
@@ -377,6 +377,7 @@ nav{
     font-size: 25px;
     font-family: 'Pontano Sans';
     text-shadow: 3px 5px 19px black;
+    margin-left: 0.5vw;
   }
   .footer>p{
     font-size: 22px;
