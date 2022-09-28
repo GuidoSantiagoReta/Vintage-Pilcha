@@ -24,6 +24,9 @@ nav{
     z-index: 10;
 
 }
+.logo-title{
+  padding-right: 5vw;
+}
 .logo-title h1 {
   margin-right: 3vw;
 
@@ -113,7 +116,7 @@ nav{
     top: 130%;
     transform: translate(-50%, -50%);
     font-size: 25px;
-    margin-left: 255px;
+    margin-left: 242px;
     padding-left:50px ;
     color: #fff;
     font-family: 'Pontano Sans', sans-serif;
@@ -135,7 +138,7 @@ nav{
     color: #fff;
     font-weight: bold;
     align-items: center;
-    margin-left: 12.5vw;
+    margin-left: 238px;
     padding-left: 10px;
     box-shadow: 0px 0px 5px 2px rgb(255, 253, 253);
     cursor: pointer;
@@ -414,7 +417,7 @@ nav{
       font-weight: bolder;
       font-size: 15px;
       font-family: 'Pontano Sans', sans-serif;
-      padding: 5px ;
+      padding: 6px ;
   }
 
 
@@ -426,14 +429,14 @@ nav{
         color:#fff;
         font-family: 'Pontano Sans', sans-serif;
         font-size: 17px;
-        margin-right: 51vw;
+        margin-right: 46vw;
         font-weight: lighter;
          word-wrap:none;
     }
      #sweater{
         display: flex;
         margin-left: 20px; 
-        width: 60%;
+        width: 50%;
     
      }
 
@@ -481,7 +484,7 @@ nav{
     color: #fff;
     font-weight: bold;
     align-items: center;
-    margin-left: 18vw;
+    margin-left: 17vw;
     padding-left: 1px;
     box-shadow: 0px 0px 5px 2px rgb(255, 253, 253);
     
@@ -491,6 +494,7 @@ nav{
 .cat-title{
  
   font-family: 'Pontano Sans', sans-serif;
+  margin-left: 1vw;
 }
 
 #container-col{
