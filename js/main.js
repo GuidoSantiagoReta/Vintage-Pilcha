@@ -1,4 +1,6 @@
 
+
+/*BURGER MENU*/ 
 const  navSlide = () => {
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('.nav-links');
@@ -23,6 +25,7 @@ const  navSlide = () => {
 }
 navSlide();
 
+
 /*BUTTON*/
 
 const btn = document.querySelector(".btn");
@@ -33,7 +36,7 @@ btn.style.color = color;
 
 
 
-//Carrousel
+/*CAROUSEL*/ 
 const buttons = document.querySelectorAll("[data-carousel-button]")
 
 buttons.forEach(button => {
