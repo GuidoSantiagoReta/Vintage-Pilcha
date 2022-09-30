@@ -737,7 +737,7 @@ nav{
         
     }
      #sweater{
-        display: flex;
+        display: none;
         margin-left: 20px; 
         max-width: 5vw;
      }
@@ -1251,13 +1251,13 @@ nav{
      .logo-title>h1 {
       color:#fff;
       font-family: 'Pontano Sans', sans-serif;
-      font-size: 9px;
+      font-size: 12px;
       font-weight: lighter;
      
       
   }
    #sweater{
-      display: flex;
+      display: none;
       margin-left: 3px; 
       max-width: 3vw;
    }
